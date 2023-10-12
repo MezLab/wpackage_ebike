@@ -1,0 +1,48 @@
+/**
+ * Plugin Name:       WPackage HR
+ * Plugin URI:        https://developer.unsocials.com/
+ * Description:       Design Style CSS Candidate
+ * Version:           1.0
+ * Author:            Mez
+ */
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+div.candidate{
+  width: 80%;
+  display: flex;
+}
+
+div.candidate div.wrap{
+  margin-bottom: 20px;
+  background-color: #e1e1e1;
+  padding: 20px;
+}
+
+div.candidate div.wrap i{
+  font-size: 25px;
+  color: #6a4cf2;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+div.candidate div.wrap label {
+  font-size: 15px;
+  display: block;
+  font-weight: 700;
+}
+
+div.candidate div.wrap p {
+  font-size: 16px;
+  margin: 5px 0px;
+  background-color: #1d2327;
+  padding: 0px 30px;
+  color: #fff;
+}
+
+div.ebike_candidate table td{
+  border: 1px solid #606060;
+  padding: 3px 10px;
+  background-color: #fff;
+  color: #606060;
+}

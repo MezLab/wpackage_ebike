@@ -1,0 +1,184 @@
+/**
+ * Plugin Name:       WPackage HR
+ * Plugin URI:        https://developer.unsocials.com/
+ * Description:       Design Style CSS
+ * Version:           1.0
+ * Author:            Mez
+ */
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/* File CSS Include  */
+
+@import 'header.css';
+@import 'module.css';
+@import 'candidate.css';
+
+
+p.msg {
+  font-size: 20px;
+  background-color: #83eac3;
+  padding: 20px;
+  display: inline-block;
+  color: #1d2327;
+  margin: 0;
+}
+/** --------------------------- */
+
+table.myTable.ebike{
+  width: 90%;
+}
+
+table.myTable.ebike tr td i{
+  font-size: 16px;
+}
+
+table.myTable.ebike thead tr td{
+  border: none;
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+table.myTable.ebike tbody tr td {
+  border: none;
+  background-color: #ececec;
+  color: #2d2d2d;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+div._msg_{
+  position: fixed;
+  background-color: #f8f8f8;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -5px #000;
+}
+
+div.sel_{
+  display: flex;
+  align-content: center;
+  padding: 10px 0px;
+  width: 90%;
+
+  justify-content: space-between;
+}
+
+div.sel_ div{
+  font-weight: bold;
+  color: #1d2327;
+  display: flex;
+  align-items: center;
+  border: 1px solid #1d2327;
+  padding: 3px;
+}
+
+div.sel_ input[type=search]{
+  width: 300px;
+}
+
+div.sel_ input[type=search],
+div.sel_ button{
+  background-color: transparent;
+  border: none;
+}
+
+div.sel_ #downloadExcel {
+  background-color: transparent;
+  border: none;
+  width: 200px;
+}
+
+div.sel_ a.downloadExcel{
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+div.sel_ span{
+  display: flex;
+}
+
+div.sel_ span:first-child div{
+  margin-right: 10px;
+}
+
+.myTable tr {
+  position: relative;
+}
+
+.perPages {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+.perPages .pageLink {
+  border: 1px solid #6a4cf2;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.perPages .pageLink i{
+  font-size: 14px;
+  color: #6a4cf2;
+}
+
+#myTable.ebike tr td a.tooltipMenu {
+  border: 1px solid #000;
+  color: #000;
+  padding: 5px;
+  margin: 2px;
+}
+
+.nav-link{
+  color:#000!important;
+}
+
+.nav {
+  align-items: center!important;
+}
+
+p.alertSearch {
+  font-size: 18px;
+  position: absolute;
+  bottom: 10px;
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+
+/* TAB */
+
+button.tab-button {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+button.active,
+button:hover {
+  background-color: #000!important;
+  color: #fff;
+}
+
+p {
+  text-align: left;
+  padding: 10px;
+}
+
+.contentWrapper .content {
+  display: none;
+}
+
+.contentWrapper .content.active {
+  display: block;
+}
